@@ -34,5 +34,10 @@ namespace harcal
         {
             return a1 + a2;
         }
+
+        public double mul(int a1, int a2)
+        {
+            return a1 * a2;
+        }
     }
 }

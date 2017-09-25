@@ -20,6 +20,9 @@ namespace harcal
         [OperationContract]
         double add(int a1  ,int a2);
 
+
+        [OperationContract]
+        double mul(int a1, int a2);
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
