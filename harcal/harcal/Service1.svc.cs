@@ -29,5 +29,10 @@ namespace harcal
             }
             return composite;
         }
+
+        public double add(int a1, int a2)
+        {
+            return a1 + a2;
+        }
     }
 }
